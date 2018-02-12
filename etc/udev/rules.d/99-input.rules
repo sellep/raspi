@@ -1,0 +1,4 @@
+# Detecting bluetooth clients
+
+SUBSYSTEM="input", GROUP="input", MODE="0660"
+KERNEL=="input[0-9]*", RUN+="/home/paco/bluetooth_add.sh"
